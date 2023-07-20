@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'ponto_turistico.apps.PontoTuristicoConfig',
     'atracoes.apps.AtracoesConfig',
+    'comentarios.apps.ComentariosConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
