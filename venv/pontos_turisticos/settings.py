@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'ponto_turistico',
+    'ponto_turistico.apps.PontoTuristicoConfig',
+    'atracoes.apps.AtracoesConfig',
 ]
 
 MIDDLEWARE = [
