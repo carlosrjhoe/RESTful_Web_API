@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'ponto_turistico.apps.PontoTuristicoConfig',
     'atracoes.apps.AtracoesConfig',
     'comentarios.apps.ComentariosConfig',
+    'avaliacoes.apps.AvaliacoesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
