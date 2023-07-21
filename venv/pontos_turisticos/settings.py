@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'atracoes.apps.AtracoesConfig',
     'comentarios.apps.ComentariosConfig',
     'avaliacoes.apps.AvaliacoesConfig',
+    'endereco.apps.EnderecoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
