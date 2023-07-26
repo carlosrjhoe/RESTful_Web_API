@@ -39,6 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'ponto_turistico.apps.PontoTuristicoConfig',
+    'atracoes.apps.AtracoesConfig',
+    'avaliacoes.apps.AvaliacoesConfig',
+    'comentarios.apps.ComentariosConfig',
+    'enderecos.apps.EnderecosConfig',
 ]
 
 MIDDLEWARE = [
