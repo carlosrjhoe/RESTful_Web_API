@@ -18,8 +18,10 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
+from ponto_turistico.api.viewsets import PontoTuristicoViewSet
 
 router = routers.DefaultRouter()
+router.register('ponto_turistico', PontoTuristicoViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
