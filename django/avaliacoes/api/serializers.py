@@ -5,3 +5,4 @@ class AvaliacaoSerializer(ModelSerializer):
     class Meta:
         model = Avaliacao
         fields = ['id', 'comentario', 'nota', 'data']
+        
