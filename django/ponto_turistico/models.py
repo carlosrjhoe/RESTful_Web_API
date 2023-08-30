@@ -6,8 +6,8 @@ from enderecos.models import Endereco
 # Create your models here.
 class PontoTuristico(models.Model):
     nome = models.CharField(max_length=150)
-    descricao = models.TextField()
-    aprovado = models.BooleanField(default=False)
+    descricao = models.TextField(null=True, blank=True)
+    aprovado = models.BooleanField(default=False, null=True, blank=True)
     atracoes = models.ManyToManyField(Atracao)
     comentarios = models.ManyToManyField(Comentario)
     avaliacoes = models.ManyToManyField(Avaliacao)
